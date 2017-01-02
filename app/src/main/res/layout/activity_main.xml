@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <fragment
+        android:id="@+id/picker_fragment"
+        android:name="ir.p30prog.numberpickerlistview.PickerFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:not_center_color="#0d5653"
+        app:center_item_background_color="#aaff00"
+        app:center_color="#aa1100"/>
+
+</LinearLayout>

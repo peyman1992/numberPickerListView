@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <ir.p30prog.numberpickerlistview.PickerListView
+        android:id="@+id/picker_listview"
+        style="@style/list_view_style"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:fadingEdgeLength="0dp"/>
+
+</LinearLayout>
